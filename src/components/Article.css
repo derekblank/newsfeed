@@ -1,0 +1,24 @@
+.Article {
+  box-shadow: 0 .1rem .2rem 0 rgba(0, 0, 0, .2);
+  margin-bottom: 2rem;
+  transition: .3s;
+  display: inline-block;
+}
+
+.Article:hover {
+  box-shadow: 0 .2rem .3rem 0 rgba(0, 0, 0, .2);
+}
+
+.ArticleMeta {
+  padding: 0 1rem 1rem;
+}
+
+.Image {
+  width: 100%;
+  height: auto;
+}
+
+.Author {
+  font-size: .75rem;
+  color: #666666;
+}

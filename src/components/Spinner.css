@@ -1,0 +1,28 @@
+@-webkit-keyframes spin {
+  to {
+    stroke-dashoffset: -264;
+  }
+}
+
+@keyframes spin {
+  to {
+    stroke-dashoffset: -264;
+  }
+}
+
+.Spinner {
+  width: 2rem;
+  height: 2rem;
+  padding: 1rem;
+}
+
+.Spinner circle {
+  -webkit-animation: spin 100 infinite linear;
+  animation: spin 1s infinite linear;
+  fill: none;
+  stroke-dasharray: 0, 0, 70, 194;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  stroke-width: 2;
+  stroke: slategray;
+}

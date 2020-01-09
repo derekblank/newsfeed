@@ -16,7 +16,7 @@ function App () {
   const {
     data: articlesData,
     error,
-  } = useSWR(`https://newsapi.org/v2/top-headlines?sources=${source}&apiKey=8ed6a3dd6e4242b891cf91a4dbb3cc99`, fetcher)
+  } = useSWR(`https://newsapi.org/v2/top-headlines?sources=${source}&apiKey=96e7efbae84544aca2e40f5834bf2777`, fetcher)
 
   // Update the source state when source select element changes
   function handleChange (event) {
